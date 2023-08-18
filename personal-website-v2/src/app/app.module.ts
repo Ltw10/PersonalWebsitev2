@@ -7,12 +7,14 @@ import { NavbarComponent } from './navbar/navbar.component';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AboutComponent } from './about/about.component';
+import { CareerComponent } from './career/career.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    AboutComponent
+    AboutComponent,
+    CareerComponent
   ],
   imports: [
     BrowserModule,

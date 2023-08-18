@@ -1,0 +1,19 @@
+.timeline {
+    position: relative;
+}
+
+.timeline-item {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.timeline-left, .timeline-right {
+    flex: 1;
+    padding: 10px;
+}
+
+.timeline-middle {
+    width: 2px;
+    background-color: #333;
+    margin: 0 15px;
+}
