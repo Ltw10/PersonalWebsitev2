@@ -1,0 +1,20 @@
+.education-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .education-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .education-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .education-image img {
+    max-width: 100%;
+  }

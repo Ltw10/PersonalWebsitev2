@@ -17,3 +17,14 @@
     background-color: #333;
     margin: 0 15px;
 }
+
+.date-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.date-logo img {
+    max-width: 350px;
+    margin-top: 10px;
+}
