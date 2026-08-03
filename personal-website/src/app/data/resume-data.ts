@@ -67,13 +67,25 @@ export const jobs: Job[] = [
     company: '84.51°',
     title: 'Senior Software Engineer',
     location: 'Cincinnati, Ohio',
-    start: 'June 2023',
+    start: 'March 2025',
     end: 'Present',
     description: [
-      'Designing and implementing scalable data pipelines in Snowflake, transforming and delivering supply chain data to over 50 customers, growing adoption from fewer than 10.',
-      'Developing and maintaining customer-facing Java Spring API and Svelte UI, enabling seamless data access and improved user experience.',
-      'Leading the development of the Client Management Service API, leveraging Java Spring and Snowpark to automate client onboarding, contract processing, and subaccount creation.',
-      'Architecting and launching the Custom Data Orders experience, empowering customers with greater flexibility in selecting metrics and aggregations compared to traditional syndicated data offerings.',
+      'Built and integrated a reusable chatbot UI component into internal consumer applications, enabling consistent agent-based experiences across products and supporting the launch of 84.51°\'s first AI-driven product feature.',
+      'Developed a FastAPI based backend service to orchestrate multi-agent workflows, handling request routing, tool invocation, and integration with internal MCP-backed services.',
+      'Architected and launched Custom Data Orders, a full-stack application successfully serving 20+ CPG customers with large custom data extracts, empowering customers with greater flexibility in selecting metrics and aggregations compared to traditional syndicated data offerings.',
+      'Led development of the Client Management Service API, automating onboarding, contract processing, and subaccount creation with Java Spring, JDBC, and Snowpark, reducing a two–three-day manual process to a single API-driven workflow completed in under a day.',
+      'Owned development of InQueries, a shopper data-driven survey platform, building a Java Spring service to orchestrate cross-system workflows, improving processing performance by 10x.',
+    ],
+  },
+  {
+    company: '84.51°',
+    title: 'Software Engineer',
+    location: 'Cincinnati, Ohio',
+    start: 'June 2023',
+    end: 'March 2025',
+    description: [
+      'Designed and implemented scalable, high-throughput data pipelines in Snowflake, processing and delivering supply chain data to 70+ customers, growing adoption from fewer than 10 and supporting production workloads at scale.',
+      'Developed and maintained customer-facing Java Spring API and Svelte UI, enabling reliable and performant data access across distributed systems.',
     ],
   },
   {
@@ -83,8 +95,8 @@ export const jobs: Job[] = [
     start: 'August 2021',
     end: 'May 2023',
     description: [
-      'Designed and implemented a UI tool for the organization that booked thousands of coaching appointments.',
-      'Maintained back-end systems within the Salesforce for error-free use by the organization.',
+      'Designed and implemented full-stack tooling for the organization that booked thousands of coaching appointments.',
+      'Maintained back-end systems within Salesforce for error-free use by the organization.',
     ],
   },
   {
@@ -128,23 +140,55 @@ export const education: Education[] = [
 /** Skills grouped for display. Flattened into a single list for the pill section. */
 export const skillsByCategory: { category: string; skills: string[] }[] = [
   {
-    category: 'Software Development and Architecture',
+    category: 'Backend & Languages',
     skills: [
       'Java (Spring Boot)',
       'JavaScript (React, Angular, Svelte)',
       'State Management (NgRx, Svelte Stores)',
-      'Python',
+      'Python (FastAPI)',
+    ],
+  },
+  {
+    category: 'Data & Databases',
+    skills: [
+      'PostgreSQL',
+      'Snowflake (Snowpark, ETL pipelines)',
+      'Cosmos DB (MongoDB API)',
       'SQL',
     ],
   },
   {
-    category: 'Cloud, Data, & Infrastructure',
+    category: 'Distributed Systems & Messaging',
     skills: [
-      'Snowflake (Snowpark, ETL pipelines)',
+      'RabbitMQ',
+      'Azure Service Bus',
+      'Event-driven architecture',
+      'Asynchronous processing',
+    ],
+  },
+  {
+    category: 'Cloud & Infrastructure',
+    skills: [
       'Azure (Functions, Cosmos DB, App Services, DevOps)',
-      'PostgreSQL',
+      'Kubernetes',
+      'Helm',
+      'Docker',
+      'Datadog',
+      'Grafana',
+      'GitHub',
       'CI/CD (GitHub Actions, Azure DevOps)',
       'Testing (JUnit, Mockito, Jest, Playwright)',
+    ],
+  },
+  {
+    category: 'AI & LLM Systems',
+    skills: [
+      'Agent-based architectures (Google ADK)',
+      'Multi-agent orchestration',
+      'MCP integrations',
+      'Claude Code',
+      'Cursor',
+      'Copilot',
     ],
   },
   {
@@ -165,13 +209,13 @@ export const projects: Project[] = [
   {
     name: 'NKY Connect',
     description:
-      'A web application for the Northern Kentucky region that helps users discover, understand, and connect with local service providers — from lawn care and HVAC to cleaning and detailing. The app presents services in an organized, searchable way so users can see who offers what, what’s included, and how to contact or engage with providers. Built with a React frontend (routing, components) and an Azure Functions backend; APIs handle provider accounts and service listings, with JWT authentication for secure login and API access.',
+      'A React-based web platform hosted in Azure that connects customers with local service providers in Northern Kentucky, with plans for expansion. Helps users discover, understand, and connect with providers — from lawn care and HVAC to cleaning and detailing — in an organized, searchable way. Built and deployed a scalable API using Azure Functions and Cosmos DB supporting user interactions and data persistence, with JWT authentication for secure login and API access.',
     tech: ['React', 'Azure Functions', 'JWT', 'Cosmos DB'],
   },
   {
     name: 'NKY Pickleball League Website',
     description:
-      'Created and manage a pickleball league website using Carrd that allowed the league to enhance its engagement and expand participation beyond only family and friends.',
+      'Created and managed a Carrd-based pickleball league website that increased league engagement and participation beyond only family and friends.',
     url: 'https://www.nkypickleballleague.com/',
     tech: ['Carrd'],
   },
