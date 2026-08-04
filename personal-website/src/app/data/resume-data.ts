@@ -64,6 +64,21 @@ export const about = {
 /** Most recent first. Timeline alternates left/right by index (0 = right, 1 = left, etc.). */
 export const jobs: Job[] = [
   {
+    company: 'NKY Connect',
+    title: 'Co-Founder',
+    location: 'Northern Kentucky',
+    start: 'July 2026',
+    end: 'Present',
+    description: [
+      'Co-leading company strategy, product vision, and roadmap for a platform that connects customers with local service providers in Northern Kentucky.',
+      'Designing and developing the full-stack web application using React, Azure Functions, Cosmos DB, and Azure Static Web Apps.',
+      'Building scalable cloud infrastructure, APIs, JWT authentication, and analytics to support user interactions and data persistence.',
+      'Managing deployments, monitoring, and platform reliability using GitHub Actions, Azure, and Grafana.',
+      'Partnering with local businesses to onboard providers and continuously improve the platform through customer feedback.',
+      'Driving marketing initiatives, business operations, and long-term growth.',
+    ],
+  },
+  {
     company: '84.51°',
     title: 'Senior Software Engineer',
     location: 'Cincinnati, Ohio',
@@ -210,7 +225,22 @@ export const projects: Project[] = [
     name: 'NKY Connect',
     description:
       'A React-based web platform hosted in Azure that connects customers with local service providers in Northern Kentucky, with plans for expansion. Helps users discover, understand, and connect with providers — from lawn care and HVAC to cleaning and detailing — in an organized, searchable way. Built and deployed a scalable API using Azure Functions and Cosmos DB supporting user interactions and data persistence, with JWT authentication for secure login and API access.',
-    tech: ['React', 'Azure Functions', 'JWT', 'Cosmos DB'],
+    url: 'https://www.nkyconnect.com/',
+    tech: ['React', 'Azure Functions', 'JWT', 'Cosmos DB', 'Azure Static Web Apps'],
+  },
+  {
+    name: '19th Hole Golf League Website',
+    description:
+      'Full-stack web app for a local golf league that replaces paper scorecards and spreadsheets with live schedule, standings, and score entry. Players submit hole-by-hole scores, opt into weekly skins, and track handicaps; the app computes match points, skins pots/winners, and regular-season standings automatically. Includes virtual scorecards, scorecard uploads, and a secret-gated admin console for league settings, course setup, and score moderation.',
+    url: 'https://19th-hole-golf-league-website.vercel.app/',
+    tech: ['Next.js', 'Supabase', 'PostgreSQL', 'TypeScript'],
+  },
+  {
+    name: 'NFL Playoff Picks Website',
+    description:
+      'Web app for a family NFL playoff pool where users pick game winners and compete on a live leaderboard. Syncs scores from the ESPN API, stores picks and standings in Supabase, and only refreshes live games so page loads stay fast. Users join with a simple name-based session—no passwords. Includes deadline enforcement (picks lock when games start), real-time record calculation, and a responsive UI for desktop and mobile.',
+    url: 'https://ltw10.github.io/nfl_playoff_picks/',
+    tech: ['React', 'Tailwind CSS', 'Supabase', 'PostgreSQL', 'ESPN API', 'GitHub Pages'],
   },
   {
     name: 'NKY Pickleball League Website',

@@ -1,7 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="LW">
-  <rect width="32" height="32" rx="7" fill="#0a0a0b"/>
-  <!-- L -->
-  <path fill="#3b82f6" d="M6 7h3.2v14.2H14V24H6V7z"/>
-  <!-- W -->
-  <path fill="#3b82f6" d="M15.2 7h3.1l1.55 11.4L21.4 7h3.1l-2.55 17h-3.05L17.35 12.2 15.8 24H12.75L15.2 7z"/>
+  <rect width="32" height="32" rx="6" fill="#0a0a0b"/>
+  <text
+    x="16"
+    y="21.5"
+    text-anchor="middle"
+    font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"
+    font-size="15"
+    font-weight="800"
+    fill="#3b82f6"
+    letter-spacing="1.5"
+  >LW</text>
 </svg>
